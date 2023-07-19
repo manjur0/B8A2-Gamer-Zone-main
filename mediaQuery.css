@@ -1,0 +1,28 @@
+@media only screen and (max-width: 576px){
+    
+    .banner-content{
+        flex-wrap: wrap;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+    .gamer-img img {
+        width: 100%;
+        height: auto;
+    }
+    .gamer-container{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .sing-ing{
+        margin: 25px 0
+    }
+    .video-card{
+        flex-wrap: wrap;
+    }
+    .instantly-header{
+        text-align: center;
+        font-size: 32px;
+        line-height:normal;
+    }
+}
