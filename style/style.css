@@ -220,3 +220,48 @@ ul li {
 }
 
 /* Play Instantly section */
+.instantly {
+  width: 80%;
+  margin: 0 auto;
+}
+.instantly-container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+}
+.instantly-content {
+  text-align: right;
+}
+.instantly-header {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+.color-head {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.instantly-des {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.instantly-img img {
+  width: 100%;
+  height: auto;
+}
+.overlay-img img {
+  width: 50%;
+  height: auto;
+  position: relative;
+  right: 110px;
+  top: -130px;
+}
