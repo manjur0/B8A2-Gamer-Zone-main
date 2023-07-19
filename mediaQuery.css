@@ -1,5 +1,22 @@
 @media only screen and (max-width: 576px){
-    
+    /* nav section */
+    .nav-item, .header-nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+/* banner section */
+    .banner-text h3{
+        font-size: 30px;
+    }
+    .banner-text h2{
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
     .banner-content{
         flex-wrap: wrap;
     }
@@ -14,8 +31,67 @@
         flex-wrap: wrap;
         text-align: center;
     }
-    .sing-ing{
-        margin: 25px 0
+    .gamer-content, .sing-ing {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+
+    /* instantly section  */
+    .instantly-container {
+        margin-top: 60px;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    .instantly-des{
+        text-align: center;
+        margin: 20px 0;
+    }
+    .overlay-img img{
+        right: 25px;
+        top: -100px;
+    }
+
+/* career section  */
+    .career-container{
+        flex-direction: column;
+
+    }
+    .career-content{
+        width: 100%;
+    }
+    .career-img{
+        width: 100%;
+    }
+
+    .categories-container{
+        width: 90%;
+    }
+    .categories-item{
+        flex-basis: 40%;
+        text-align: center;
+        align-items: center;
+    }
+    /* footer  */
+    .footer-logo{
+        justify-content: ;
+    }
+    .footer-nav ul{
+        justify-content: ;
+    }
+    .footer-container{
+        display: flex;
+    }
+    .main-footer-area{
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* video section  */
+    .video-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
     }
     .video-card{
         flex-wrap: wrap;
@@ -24,5 +100,8 @@
         text-align: center;
         font-size: 32px;
         line-height:normal;
+    }
+    p.card-des {
+        padding: 23px 0;
     }
 }
