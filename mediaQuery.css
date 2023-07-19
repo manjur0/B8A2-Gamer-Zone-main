@@ -68,7 +68,7 @@
         width: 90%;
     }
     .categories-item{
-        flex-basis: 40%;
+        flex-basis: 33%;
         text-align: center;
         align-items: center;
     }
@@ -76,15 +76,26 @@
     .footer-logo{
         justify-content: ;
     }
-    .footer-nav ul{
-        justify-content: ;
+    .footer-nav{
+        align-items: normal ;
+        width: auto;
+    }
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
     }
     .footer-container{
         display: flex;
     }
     .main-footer-area{
-        width: 100%;
+        width:auto;
         height: auto;
+    }
+    .social-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 10px;
+        align-items: center;
     }
 
 
