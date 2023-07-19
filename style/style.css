@@ -31,13 +31,13 @@
 .logo span {
   color: #ff42a5;
 }
-ul {
+.nav-item {
   display: flex;
   justify-content: center;
   gap: 40px;
   list-style: none;
 }
-ul li {
+.nav-item li {
   color: #3c354f;
   text-align: center;
   font-size: 18px;
@@ -264,4 +264,61 @@ ul li {
   position: relative;
   right: 110px;
   top: -130px;
+}
+
+/* career section style css  */
+
+.career {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 50px 0px;
+}
+.career-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.career-container img {
+  width: 100%;
+}
+.career-content {
+  color: white;
+  width: 50%;
+}
+.career-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.career-content p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.career-img {
+  width: 50%;
+}
+.roles {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.roles ul {
+  margin-top: 30px;
+  list-style: none;
+}
+.roles li {
+  margin-top: 20px;
+}
+ul.right-list {
+  text-align: right;
+}
+.roles-btn {
+  margin-top: 20px;
+  padding: 21px 40px;
+  gap: 10px;
+  border-radius: 48px;
+  background: #fff;
+  border: none;
+  color: #f948b2;
+  font-size: 18px;
 }
