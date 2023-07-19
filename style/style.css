@@ -2,7 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
-  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Work Sans', sans-serif;
 }
 
 /* header menu  style  */
@@ -12,6 +15,7 @@
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   align-items: center;
+  padding: 20px 0px;
 }
 .logo {
   display: flex;
@@ -24,7 +28,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.logo span{
+.logo span {
   color: #ff42a5;
 }
 ul {
@@ -44,10 +48,68 @@ ul li {
   background: rgba(11, 2, 35, 0.1);
   padding: 3px 8px;
 }
-.fa-youtube{
+.fa-youtube {
   color: red;
   padding: 0 5px;
 }
 /* heading style end  */
 
 /* banner area style css  */
+.banner {
+  margin-top: 50px;
+}
+.banner-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-text h3 {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-text h2 {
+  text-align: center;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-text p {
+  color: #534c64;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+.sing-ing {
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  margin-top: 20px;
+}
+.btn-second {
+  background: #4ec5f7;
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #fff;
+  margin-top: 20px;
+
+}
