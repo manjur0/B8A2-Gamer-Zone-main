@@ -74,7 +74,7 @@
     }
     /* footer  */
     .footer-logo{
-        justify-content: ;
+        justify-content: center;
     }
     .footer-nav{
         align-items: normal ;
@@ -116,3 +116,29 @@
         padding: 23px 0;
     }
 }
+
+
+
+
+/* tablet responsivnes  */
+@media screen and (max-width: 768px) {
+    
+    /* header section  */
+    /**.header-nav{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+
+    /* banner section  */
+
+    /**.banner-content{
+        flex-direction: column;
+    }
+    .banner-img img {
+        width: 100%;
+    }
+
+}
+
